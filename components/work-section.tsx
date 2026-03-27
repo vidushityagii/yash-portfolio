@@ -22,10 +22,66 @@ const chapters = [
                 description: "Clean, rhythm-based edit focusing on product sound design and macro shots.",
                 tools: ["Premiere Pro", "After Effects"]
             },
+            {
+                title: "Tech Minimalism",
+                category: "Product Reveal",
+                videoSrc: "https://drive.google.com/file/d/1c4YMWe98kPkHy_yUTflNl1ufCgOuJJVT/view?usp=drive_link",
+                description: "Clean, rhythm-based edit focusing on product sound design and macro shots.",
+                tools: ["Premiere Pro", "After Effects"]
+            },
         ]
     },
     {
         number: "02",
+        title: "Recent Work",
+        subtitle: "Vertical Videos",
+        projects: [
+            {
+                title: "Recent Cut 01",
+                category: "Instagram Reel",
+                videoSrc: "https://drive.google.com/file/d/1yn_H-NhBnNFMV-lq7TYU882DkVS3y3E8/view?usp=drive_link",
+                description: "A fast, hook-first vertical cut optimized for retention and watch time.",
+                tools: ["Premiere Pro"]
+            },
+            {
+                title: "Recent Cut 02",
+                category: "Short Form",
+                videoSrc: "https://drive.google.com/file/d/1MRwBkWBwON0jWIrM6W9n72NnXUnt3zzn/view?usp=drive_link",
+                description: "Story-led short format edit with dynamic pacing and clean transitions.",
+                tools: ["Premiere Pro", "After Effects"]
+            },
+            {
+                title: "Recent Cut 03",
+                category: "Vertical Video",
+                videoSrc: "https://drive.google.com/file/d/1p3KUb2KsXg1ROsqdPnXSLhfuZ2SpWr9O/view?usp=drive_link",
+                description: "Performance-focused edit designed for social feeds and mobile-first viewing.",
+                tools: ["Premiere Pro"]
+            },
+            {
+                title: "Recent Cut 01",
+                category: "Instagram Reel",
+                videoSrc: "https://drive.google.com/file/d/1jaU1pKizsKBT-W7yhplf-XjwPvdhLokU/view?usp=drive_link",
+                description: "A fast, hook-first vertical cut optimized for retention and watch time.",
+                tools: ["Premiere Pro"]
+            },
+            {
+                title: "Recent Cut 02",
+                category: "Short Form",
+                videoSrc: "https://drive.google.com/file/d/1Jyt6hb8SipLI4AGaiRwVF1DZfTWdoCbh/view?usp=drive_link",
+                description: "Story-led short format edit with dynamic pacing and clean transitions.",
+                tools: ["Premiere Pro", "After Effects"]
+            },
+            {
+                title: "Recent Cut 03",
+                category: "Vertical Video",
+                videoSrc: "https://drive.google.com/file/d/1Dek1za2ch4OKTYZt7Q8VEM5_zCJYNFXM/view?usp=drive_link",
+                description: "Performance-focused edit designed for social feeds and mobile-first viewing.",
+                tools: ["Premiere Pro"]
+            }
+        ]
+    },
+    {
+        number: "03",
         title: "Scroll-Stopping Content",
         subtitle: "Social Media / Reels",
         projects: [
@@ -74,7 +130,7 @@ const chapters = [
         ]
     },
     {
-        number: "03",
+        number: "04",
         title: "Talking Head Videos",
         subtitle: "Educational / Course Content",
         projects: [
@@ -123,7 +179,7 @@ const chapters = [
         ]
     },
     {
-        number: "04",
+        number: "05",
         title: "Stories That Stay",
         subtitle: "Documentary / Long Form",
         projects: [
@@ -155,10 +211,17 @@ const chapters = [
                 description: "Watch the full film here: https://drive.google.com/file/d/1PkLNS1aORNC-sGUCLZP112QpMRo5wCDs/view?usp=drive_link",
                 tools: ["Premiere Pro", "DaVinci Resolve"]
             },
+            {
+                title: "The Artisan",
+                category: "Mini-Doc",
+                videoSrc: "https://drive.google.com/file/d/1uyxsZM0RQYpdUcfhWyQhJ2wHO8ikMCte/view?usp=drive_link",
+                description: "Watch the full film here: https://drive.google.com/file/d/1PkLNS1aORNC-sGUCLZP112QpMRo5wCDs/view?usp=drive_link",
+                tools: ["Premiere Pro", "DaVinci Resolve"]
+            },
         ]
     },
     {
-        number: "05",
+        number: "06",
         title: "Moments That Stick",
         subtitle: "Short Form",
         projects: [
@@ -207,7 +270,7 @@ const chapters = [
         ]
     },
     {
-        number: "06",
+        number: "07",
         title: "Motion That Moves",
         subtitle: "Animations / Motion Graphics",
         projects: [
@@ -241,7 +304,7 @@ export function Work() {
                     subtitle={chapter.subtitle}
                     projects={chapter.projects}
                     reversed={index % 2 !== 0} // Alternate layout
-                    aspectRatio={["Talking Head Videos", "Moments That Stick", "Trendsetter Reel"].includes(chapter.title) ? "vertical" : "video"}
+                    aspectRatio={["Recent Work", "Talking Head Videos", "Moments That Stick", "Trendsetter Reel"].includes(chapter.title) ? "vertical" : "video"}
                 />
             ))}
         </div>
