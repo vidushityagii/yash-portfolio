@@ -18,7 +18,7 @@ const chapters = [
             {
                 title: "Tech Minimalism",
                 category: "Product Reveal",
-                videoSrc: "https://drive.google.com/file/d/14uG7wcWqMWGxHuLhBAlJOzRM2csUQ0ZM/view?usp=drive_link",
+                videoSrc: "https://drive.google.com/file/d/1uyxsZM0RQYpdUcfhWyQhJ2wHO8ikMCte/view?usp=drive_link",
                 description: "Clean, rhythm-based edit focusing on product sound design and macro shots.",
                 tools: ["Premiere Pro", "After Effects"]
             },
@@ -211,13 +211,7 @@ const chapters = [
                 description: "Watch the full film here: https://drive.google.com/file/d/1PkLNS1aORNC-sGUCLZP112QpMRo5wCDs/view?usp=drive_link",
                 tools: ["Premiere Pro", "DaVinci Resolve"]
             },
-            {
-                title: "The Artisan",
-                category: "Mini-Doc",
-                videoSrc: "https://drive.google.com/file/d/1uyxsZM0RQYpdUcfhWyQhJ2wHO8ikMCte/view?usp=drive_link",
-                description: "Watch the full film here: https://drive.google.com/file/d/1PkLNS1aORNC-sGUCLZP112QpMRo5wCDs/view?usp=drive_link",
-                tools: ["Premiere Pro", "DaVinci Resolve"]
-            },
+           
         ]
     },
     {

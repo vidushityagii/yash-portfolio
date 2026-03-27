@@ -60,7 +60,7 @@ export function Hero() {
             </Button>
 
             <a
-              href="https://drive.google.com/file/d/15jObSiRDIIpI44mjGcpaeCGwOlQM9zLn/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1iWbZNUI51y69DNqgYTmaRNBzHp7PDw8I/view?usp=drive_link"
               target="_blank"
               className="text-lg font-medium text-neutral-400 hover:text-white transition-colors"
             >
