@@ -29,6 +29,27 @@ const chapters = [
                 description: "Clean, rhythm-based edit focusing on product sound design and macro shots.",
                 tools: ["Premiere Pro", "After Effects"]
             },
+            {
+                title: "Tech Minimalism",
+                category: "Product Reveal",
+                videoSrc: "https://drive.google.com/file/d/1fhCJexX_PsCsupsn_-99maemvbR6GWhI/view?usp=drive_link",
+                description: "Clean, rhythm-based edit focusing on product sound design and macro shots.",
+                tools: ["Premiere Pro", "After Effects"]
+            },
+            {
+                title: "Tech Minimalism",
+                category: "Product Reveal",
+                videoSrc: "https://drive.google.com/file/d/1TJUTYKIGRmx4NMz_Mf0r9rXPvXUdRVMm/view?usp=drive_link",
+                description: "Clean, rhythm-based edit focusing on product sound design and macro shots.",
+                tools: ["Premiere Pro", "After Effects"]
+            },
+            {
+                title: "Tech Minimalism",
+                category: "Product Reveal",
+                videoSrc: "https://drive.google.com/file/d/1KEZd5fS_PV9aD5HyUEoCig3fy8fqyGGw/view?usp=drive_link",
+                description: "Clean, rhythm-based edit focusing on product sound design and macro shots.",
+                tools: ["Premiere Pro", "After Effects"]
+            },
         ]
     },
     {
@@ -85,6 +106,13 @@ const chapters = [
         title: "Scroll-Stopping Content",
         subtitle: "Social Media / Reels",
         projects: [
+            {
+                title: "Gym Motivation",
+                category: "Instagram Reel",
+                videoSrc: "https://drive.google.com/file/d/1mi-c6db9PhFXGFD_xdjR2TZzXjLw4l-n/view?usp=drive_link",
+                description: "High-intensity workout edit synced to trending audio.",
+                tools: ["CapCut", "Premiere Pro"]
+            },
             {
                 title: "Gym Motivation",
                 category: "Instagram Reel",
